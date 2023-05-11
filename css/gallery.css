@@ -1,0 +1,49 @@
+body {
+    font: 400 14px sans-serif;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav .active {
+    background-color: rosybrown;
+    color: #000;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+li :hover {
+    background-color: rgb(75, 86, 95);
+    color: white;
+}
+
+h1 {
+    margin: 10px 0 20px;
+    font-size: 25px;
+    color: rgb(235, 219, 129);
+}
+
+.card{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px; 
+}
+
+.card img {
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}

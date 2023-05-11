@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 200vh;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    height: 50vh;
+    background-color: black;
+}
+.container{
+    position: relative;   
+    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .contactinfo{
+    display: flex;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+.container .contactinfo .box .text h2{
+    color: rgb(255, 255, 255);
+}
+ul {
+    float: left;
+    list-style-type: none;
+    }
+    ul li {
+    display: inline-block;
+    }
+    ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 20px;
+
+    }
+    li :hover{
+    background-color: rgb(114, 170, 250);
+    color: rgb(255, 255, 255);
+    }
