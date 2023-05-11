@@ -8,8 +8,11 @@
           header('Location: ./login.php');
         }
       ?>
-    <title>ABOUT</title>
-    <link rel="stylesheet" type="text/css" href="css/About.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ABOUT</title>
+      <link rel="stylesheet" type="text/css" href="css/About.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 <body>
